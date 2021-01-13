@@ -4,6 +4,9 @@ function getResult(){
 
 	$.ajax({
 		url : 'http://newsapi.org/v2/top-headlines',
+		headers: {
+      		  'Content-Type': 'application/x-www-form-urlencoded'
+   		 },
 		type : 'get',
 		dataType : 'json',
 		data : {
