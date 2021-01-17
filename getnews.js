@@ -3,7 +3,7 @@ function getResult(){
 	$('#news-list').html('')
 
 	$.ajax({
-		url : 'http://newsapi.org/v2/top-headlines',
+		url : 'https://newsapi.org/v2/top-headlines',
 		headers: {
       		  'Content-Type': 'application/x-www-form-urlencoded'
    		 },
